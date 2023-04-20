@@ -1,0 +1,24 @@
+{
+  "name": "My Application",
+  "url": "https://yahoo.com",
+  "users": [
+    {
+      "name": "user1",
+      "username": "user1",
+      "password": "pass1"
+    },
+    {
+      "name": "user2",
+      "username": "user2",
+      "password": "pass2"
+    }
+  ],
+  "chrome": {
+    "version" : 111,
+    "options": [
+      "--headless",
+      "--remote-allow-origins=*",
+      "data-dir = c:/userdata"
+    ]
+  }
+}
